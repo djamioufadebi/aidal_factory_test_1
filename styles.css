@@ -1,0 +1,48 @@
+ 
+ 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 15px;
+}
+ 
+ .A {
+      box-sizing: border-box;
+      padding: 15px;       /* espace demandé */
+      width: 100%;
+      height: 60vh;        /* démo : occupe 60% de la hauteur viewport */
+      max-width: 900px;    /* démo : largeur max */
+      margin: 4rem auto;   /* centrage démo */
+      border: 1px dashed #bbb;
+      position: relative;
+      overflow: hidden;    /* sécurité anti-débordement */
+      background: #fafafa;
+    }
+
+    /* L'image remplit la zone de contenu (hors padding) sans déformer */
+    .A > img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;    /* pas de recadrage, pas de débordement */
+      object-position: center;
+      user-select: none;
+      -webkit-user-drag: none;
+      pointer-events: none;   /* purement décoratif ici */
+    }
+
+    /* (Option) Petit badge pour visualiser le ratio courant */
+    .ratio-badge {
+      position: absolute;
+      right: 8px;
+      bottom: 8px;
+      font: 12px/1 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: rgba(0,0,0,.65);
+      color: #fff;
+      padding: .35rem .5rem;
+      border-radius: 6px;
+    }
