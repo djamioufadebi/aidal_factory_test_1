@@ -14,12 +14,13 @@ Le changement de source est géré par `ResizeObserver` (avec *throttling* via `
 ---
 
 ## 📂 Structure
-
+```
 EXO-1/
 ├─ index.html
 ├─ styles.css
 ├─ script.js
 ├─ images/
-   └─  portrait.png
+   ├─ portrait.png
    └─ paysage.png
+```
 
