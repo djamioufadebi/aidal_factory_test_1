@@ -5,7 +5,7 @@ Le changement de source est géré par `ResizeObserver` (avec *throttling* via `
 
 ---
 
-## 🎯 Objectif
+## Objectif
 
 - Afficher **portrait.png** quand la zone est plus haute que large.  
 - Afficher **paysage.png** quand la zone est plus large que haute.  
@@ -13,7 +13,7 @@ Le changement de source est géré par `ResizeObserver` (avec *throttling* via `
 
 ---
 
-## 📂 Structure
+## Structure
 ```
 EXO-1/
 ├─ index.html
